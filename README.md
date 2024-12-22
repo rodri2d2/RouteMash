@@ -33,6 +33,21 @@ RouteMesh enforces best practices using Git hooks. These hooks are scripts that 
      <type>: <description>
      ```
    - Allowed types: `feat`, `bugfix`, `doc`, `chore`, `test`, `refactor`, `style`, `perf`, `ci`.
+   
+#### Allowed Commit Message Types
+
+| Type       | Description                                                                 |
+|------------|-----------------------------------------------------------------------------|
+| `feat`     | Introduces a new feature or functionality.                                  |
+| `bugfix`   | Fixes a bug in the code.                                                   |
+| `doc`      | Updates or adds documentation (e.g., README, comments).                    |
+| `chore`    | Changes that don't modify code functionality (e.g., updating dependencies).|
+| `test`     | Adds or updates tests for the codebase.                                    |
+| `refactor` | Improves code structure or readability without changing behavior.          |
+| `style`    | Changes related to code formatting (e.g., removing trailing spaces).       |
+| `perf`     | Improves performance in the code.                                          |
+| `ci`       | Updates related to Continuous Integration (e.g., GitHub Actions).          |
+
 
 ### Installing the Hooks
 
